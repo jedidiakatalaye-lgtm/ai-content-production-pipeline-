@@ -1,0 +1,8 @@
+outputs/
+data/refs/*
+!data/refs/.gitkeep
+config.yaml
+.env
+__pycache__/
+*.safetensors
+costs.csv

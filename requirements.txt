@@ -1,0 +1,8 @@
+requests>=2.31
+PyYAML>=6.0
+Pillow>=10.0
+opencv-python-headless>=4.9
+numpy>=1.26
+# Optional, only for the face-consistency gate (scripts/quality_gate.py):
+insightface>=0.7
+onnxruntime>=1.17

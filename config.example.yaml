@@ -1,0 +1,12 @@
+# Copy to config.yaml and edit.
+comfyui_url: "http://127.0.0.1:8188"      # or your rented GPU's ComfyUI URL
+workflow_file: "workflows/character_api.json"   # exported with "Save (API Format)"
+nodes:                                     # node IDs inside YOUR exported workflow
+  prompt_node: "6"
+  prompt_field: "text"
+  seed_node: "3"
+  seed_field: "seed"
+trigger_word: "ohwx_char"                  # the token your LoRA was trained on
+output_dir: "outputs/raw"
+poll_seconds: 2
+timeout_seconds: 300
